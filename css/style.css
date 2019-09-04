@@ -4,41 +4,32 @@ h2{
     font-size: 20px;
 }
 
-#Przezroczystosc{
+#przezroczystosc{
     width: 400px;
     height: 600px;
     background: gray;
     
 }
 
-.kwadrat1 {
+.kwadrat1, .kwadrat2, .kwadrat3, .kwadrat4{
     width: 100px;
     height: 100px;
     background: black;
     margin: 15px;
+}
+
+.kwadrat1 {
     opacity: 1;
 }
 
 .kwadrat2 {
-    width: 100px;
-    height: 100px;
-    background: black;
-    margin: 15px;
     opacity: 0.75;
 }
 
 .kwadrat3 {
-    width: 100px;
-    height: 100px;
-    background: black;
-    margin: 15px;
     opacity: 0.50;
 }
 
 .kwadrat4 {
-    width: 100px;
-    height: 100px;
-    background: black;
-    margin: 15px;
     opacity: 0.25;
 }
